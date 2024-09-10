@@ -18,7 +18,7 @@ import com.vaadin.v7.data.util.BeanItemContainer;
 import com.vaadin.v7.ui.Grid;
 import com.vaadin.v7.ui.TextField;
 
-/**** User Interface written in Java.
+/* User Interface written in Java.
  *
  * Define the user interface shown on the Vaadin generated web page by extending the UI class.
  * By default, a new UI instance is automatically created when the page is loaded. To reuse
@@ -41,6 +41,7 @@ public class AddressbookUI extends UI {
     Button newContact = new Button("New contact");
 
     // ContactForm is an example of a custom component class
+    // testing
     ContactForm contactForm = new ContactForm();
 
     // ContactService is a in-memory mock DAO that mimics
