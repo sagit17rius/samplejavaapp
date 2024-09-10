@@ -41,7 +41,7 @@ public class AddressbookUI extends UI {
     Button newContact = new Button("New contact");
 
     // ContactForm is an example of a custom component class
-    // testing
+    // testing 123
     ContactForm contactForm = new ContactForm();
 
     // ContactService is a in-memory mock DAO that mimics
